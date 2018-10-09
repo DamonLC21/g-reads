@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-img {
+    background-image: linear-gradient(rgba(27, 94, 109, 0.509), rgba(255, 166, 0, 0.418)), url('./platte-campus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    opacity: 0.9;
+}
