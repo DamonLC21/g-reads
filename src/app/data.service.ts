@@ -9,7 +9,6 @@ export class DataService {
 
 
   getPosts(){
-    // return this.http.get('https://g-reads-database.herokuapp.com/')
     return fetch('https://g-reads-database.herokuapp.com/')
   }
 

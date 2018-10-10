@@ -1,16 +1,20 @@
 #Card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.406);
     transition: 0.3s;
+    height: 500px;
+    overflow: hidden;
 }
 
 #Card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 60, 76, 0.904);
+    box-shadow: 0 8px 16px 0 rgba(208, 132, 18, 0.918);
     width: 90%;
     margin: 0 auto;
+    overflow: scroll;
 }
 
 img {
+    display: block;
     height: inherit;
     width:100%;
+    object-fit: contain;
 }
-

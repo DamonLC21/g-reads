@@ -3,10 +3,10 @@
       <div class="row">
         <div *ngFor="let author of authors" class="col-md-4">
           <div class="card mb-4 box-shadow" id="Card">
-            <div id="image">
+            <div id="cardImage">
               <img class="card-img-top" src={{author.portraitURL}} alt="Card image cap">
             </div>
-            <div class="card-body">
+            <div class="card-body" id="cardBody">
               <h5 class="card-title">{{author.firstName}} {{author.lastName}}</h5>
               <small class="card-text">{{author.biography}}</small>
             </div>

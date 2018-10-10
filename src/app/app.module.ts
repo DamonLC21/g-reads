@@ -8,6 +8,8 @@ import { BooksComponent } from './components/books/books.component';
 import { AuthorsComponent } from './components/authors/authors.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HttpClientModule } from  '@angular/common/http';
+import { TeacherComponent } from './components/teacher/teacher.component';
+
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { HttpClientModule } from  '@angular/common/http';
     BooksComponent,
     AuthorsComponent,
     DashboardComponent,
+    TeacherComponent,
   ],
   imports: [
     BrowserModule,

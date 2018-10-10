@@ -1,18 +1,37 @@
 #Card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.406);
     transition: 0.3s;
+    height: 500px;
+    overflow: hidden;
 }
 
 #Card:hover {
-    box-shadow: 0 8px 16px 0 rgba(218, 148, 27, 0.927);
+    box-shadow: 0 8px 16px 0 rgba(0, 60, 76, 0.904);
     width: 90%;
     margin: 0 auto;
+    overflow: scroll;
+}
+
+#Card-image{
+    border: 1px solid white;
+    height:300px;
+    box-shadow: 0 2px 8px 0 rgba(192, 153, 24, 0.153);
+
 }
 
 img {
+    display: block;
     height: inherit;
     width:100%;
+    object-fit: contain;
 }
+
+
+/* img {
+    height: inherit;
+    width: 100%;
+} */
+
 
 .jumbotron{
     background-color: rgba(187, 124, 15, 0.365);
